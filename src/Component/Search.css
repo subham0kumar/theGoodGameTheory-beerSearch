@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;1,300&family=Rubik:wght@300;400&display=swap");
+
+.container {
+  background: linear-gradient(45deg, #ccd0d8, #8567f2c1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100svh;
+  overflow-x: hidden;
+}
+
+.inputBox {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.inputField {
+  font-size: medium;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+  width: 40svw;
+  height: 2.5rem;
+  text-align: center;
+  background-color: transparent;
+  margin-right: 2.5rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box-container {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.box {
+  color: rgb(76, 111, 78);
+  height: 25rem;
+  width: 20rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e0e7ff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    45deg,
+    hsla(290, 100%, 70%, 1) 30%,
+    hsla(0, 0%, 100%, 1) 60%
+  );
+  cursor: pointer;
+}
+.box:hover {
+  scale: 98%;
+  transition: all 200ms ease-in-out;
+}
+.inner-box {
+  display: flex;
+}
+
+.img-bg {
+  height: 20rem;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+  position: relative;
+  padding: 1rem;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+  list-style: circle;
+  margin: 8px 2px;
+}
+h3 {
+  font-family: "Rubik", sans-serif;
+}
+
