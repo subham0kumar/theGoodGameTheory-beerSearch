@@ -1,1 +1,1 @@
-# visit the live app on : thegooggametheory-beersearch.netlify.app
+# visit the live app on : https://thegooggametheory-beersearch.netlify.app/
